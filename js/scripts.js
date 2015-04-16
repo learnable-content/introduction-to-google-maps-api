@@ -1,6 +1,46 @@
 //Global map variable
 var map;
 
+//Style elements
+var mapStyle = [
+    {
+        'stylers':[
+            {'saturation':-100},
+            {'gamma':1}
+        ]
+    },
+    {
+        'elementType':'labels.text.stroke',
+        'stylers':[
+            {'visibility':'off'}
+        ]
+    },
+    {
+        'featureType':'road',
+        'elementType':'geometry',
+        'stylers':[
+            {'visibility':'simplified'}
+        ]
+    },
+    {
+        'featureType':'water',
+        'stylers':[
+            {'visibility':'on'},
+            {'saturation':50},
+            {'gamma':0},
+            {'hue':'#50a5d1'}
+        ]
+    },
+    {
+        'featureType':'landscape',
+        'elementType':'all',
+        'stylers':[
+            {'color':'#e2e2e2'}
+        ]
+    }
+];
+    
+
 //Function run on DOM load
 function loadMap() {
 
@@ -56,6 +96,8 @@ function loadMap() {
             opened: true
         },
 
+        //Set the map style
+        styles: mapStyle
     };
 
     //Get the id of the map container div
