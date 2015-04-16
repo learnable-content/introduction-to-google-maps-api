@@ -1,6 +1,9 @@
 //Global map variable
 var map;
 
+//Create a single infowindow
+var infoWindow = new google.maps.InfoWindow();
+
 //Function run on DOM load
 function loadMap() {
     
@@ -8,10 +11,10 @@ function loadMap() {
     var mapOptions = {
 
         //Zoom on load
-        zoom: 11,
+        zoom: 5,
 
         //Map center
-        center: new google.maps.LatLng(40.6413111,-73.77813909),
+        center: new google.maps.LatLng(39.828127,-98.579404),
       
         //Set the map style
         styles: shiftWorkerMapStyle 
@@ -22,26 +25,45 @@ function loadMap() {
 
     //Create the map
     map = new google.maps.Map(mapId,mapOptions);
-
-    //Marker creation
-    var newMarker = this.addMarker();
     
-    //Adds the infowindow
-    addInfoWindow(newMarker);
-    
-    //Trigger marker infowindow
-    google.maps.event.trigger(newMarker, 'click');
-    
+    //Loop through the airport data
+    for (var i=0;i<airportData.length;i++) {
+     
+        var airport = airportData[i];
+        
+        //Avg percentage
+        airport.totalper = (airport.aper + airport.dper)/2;
+        
+        //Total flights
+        airport.totalflights = (airport.aop + airport.dop);
+        
+        //Set the icon color
+        airport.icon = 'green'; 
+        
+        //Set the icon size
+        airport.iconsize = new google.maps.Size(32,32);
+        
+        //Add the marker to the map
+        newMarker = addMarker(airport);
+        
+        //Append the data to the marker
+        newMarker.airport = airport;
+        
+        //Adds the infowindow
+        addInfoWindow(newMarker);
+        
+    }
+      
 }
 
 //Add a marker to the map
-function addMarker() {
-        
+function addMarker(airport) {
+    
     //Create the marker (#MarkerOptions)    
     var marker = new google.maps.Marker({
-          
+        
         //Position of marker
-        position: new google.maps.LatLng(40.6413111,-73.77813909),
+        position: new google.maps.LatLng(airport.lat,airport.lng),
         
         //Map
         map: map,                
@@ -64,82 +86,61 @@ function addMarker() {
             //Scales the image
             scaledSize: new google.maps.Size(32,32)
         },
-        
-        //Set the animation (BOUNCE or DROP)
-        //animation: google.maps.Animation.DROP,
-        
-        //Sets whether marker is clickable
-        clickable: true,
-        
-        //Drag marker
-        draggable: true,
-        
-        //Sets the opacity
-        opacity: 1.0,
-        
-        //Sets the title when mouse hovers
-        title: 'NEW YORK NY (JFK)',
                 
-        //Set visiblility
-        visible: true,
-        
-        //Sets the zIndex if multiple markers are displayed
-        zIndex: 1
+        //Sets the title when mouse hovers
+        title: airport.airport       
                 
     });
-
+    
     return marker;
 }
+
 
 //Associate an infowindow with the marker
 function addInfoWindow(marker) {
         
+    var details = marker.airport;
+    
     //Content string 
     var contentString = '<div class="infowindowcontent">'+
         '<div class="row">' +
-        '<p class="total greenbk">78.3%</p>'+
-        '<p class="location">NEW YORK NY</p>'+
-        '<p class="code">JFK</p>'+
+        '<p class="total '+details.icon+'bk">'+Math.round(details.totalper*10)/10+'%</p>'+
+        '<p class="location">'+details.airport.split("(")[0].substring(0,19)+'</p>'+
+        '<p class="code">'+details.code+'</p>'+
         '</div>'+
         '<div class="data">'+
         '<p class="tagbelow">Avg On-Time</p>'+
         '<p class="label">Arrivals</p>'+
-        '<p class="details">76% (8,590)</p>' +
+        '<p class="details">'+details.aper+'% ('+numberWithCommas(details.aop)+')</p>' +
         '<p class="label">Departures</p>'+
-        '<p class="details">80.5% (8,589)</p>' +        
-        '<p class="coords">40.6413111 , -73.77813909</p>' +
-        '</div>' +
+        '<p class="details">'+details.dper+'% ('+numberWithCommas(details.dop)+')</p>' +        
+        '<p class="coords">'+details.lat+' , '+details.lng+'</p>' +
+        '</div>'+
         '</div>';
 
-    //Create the infowindow
-    var infoWindow = new google.maps.InfoWindow({
-        
-        //Set the content of the infowindow
-        content: contentString,
-        
-        //Pan the map if infowindow extends offscreen
-        disableAutoPan: false,
-        
-        //Set the max width
-        maxWidth: 300,
-        
-        //Set the zIndex when overlaying
-        zIndex: 1
-        
-    });
-
     //Add click event listener
-    google.maps.event.addListener(marker, 'click', function(e) {
+    google.maps.event.addListener(marker, 'click', function() {
         
-        //Open the infowindow on click
+        //Close any open infowindows
+        infoWindow.close();
+        
+        //Set the new content
+        infoWindow.setContent(contentString);        
+        
+        //Open the infowindow
         infoWindow.open(map,marker);
+        
     });
+}
+
+//Add Commas to number
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
 //Load the map
 google.maps.event.addDomListener(window, 'load', loadMap());
        
-
 
 
 
