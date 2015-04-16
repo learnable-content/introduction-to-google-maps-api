@@ -10,26 +10,16 @@ html, body, #map {
     height: 600px;*/
 }
 
-/* Style for bottom coordinates */
-#ltlgcoords {
-    
-    position: fixed;
-    bottom: 25px;
-    left: 250px;
-
-    width: 500px;
-    
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 20px;
-    color: black;
-
-    border: 2px solid black;
-    background: rgb(245, 245, 245);
-    background: rgba(245, 245, 245, .9);
-
+/* Style for the info window */
+.infowindowcontent {
+    width: 400px;
+    height: 200px;
 }
 
-#ltlgcoords span {
-    margin: 0 5px 0 5px;
+.infowindowcontent h1 {
+    color: red;
 }
 
+.infowindowaddress {
+    font-weight: bold;
+}
