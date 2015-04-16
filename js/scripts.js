@@ -33,7 +33,7 @@ function addMarker() {
         
     //Create the marker (#MarkerOptions)    
     var marker = new google.maps.Marker({
-        
+          
         //Position of marker
         position: new google.maps.LatLng(40.6413111,-73.77813909),
         
@@ -57,20 +57,16 @@ function addMarker() {
             
             //Scales the image
             scaledSize: new google.maps.Size(32,32)
-        }
+        },
+      
+     
+        
+        
+        
     });
-
-  
-    //Marker events (#MarkerEvents)
-//    marker.setMap(map);
-//    marker.setVisible(false);
 
     return marker;
 }
 
 //Load the map
 google.maps.event.addDomListener(window, 'load', loadMap());
-       
-
-
-
