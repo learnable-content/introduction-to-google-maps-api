@@ -6,7 +6,7 @@ function loadMap() {
 
     //Set the map options
     var mapOptions = {
-
+        
         //Zoom on load (required)
         zoom: 11,
 
@@ -59,10 +59,10 @@ function loadMap() {
     };
 
     //Get the id of the map container div
-    var mapid = document.getElementById('map');
+    var mapId = document.getElementById('map');
 
     //Create the map
-    map = new google.maps.Map(mapid,mapOptions);
+    map = new google.maps.Map(mapId,mapOptions);
 
 }
   
