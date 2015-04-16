@@ -59,9 +59,29 @@ function addMarker() {
             scaledSize: new google.maps.Size(32,32)
         },
       
-     
+        //Set the animation (BOUNCE or DROP)
+        animation: google.maps.Animation.DROP,
         
+        //Sets whether marker is clickable
+        clickable: true,
         
+        //Drag marker
+        draggable: true,
+        
+        //Set the cross underneath the draggable marker        
+        crossOnDrag: false,
+        
+        //Sets the opacity
+        opacity: 1.0,
+        
+        //Sets the title when mouse hovers
+        title: 'NEW YORK NY (JFK)',
+        
+        //Set visiblility
+        visible: true,
+        
+        //Sets the zIndex if multiple markers are displayed
+        zIndex: 1
         
     });
 
