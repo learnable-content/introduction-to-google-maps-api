@@ -33,11 +33,37 @@ function addMarker() {
         
     //Create the marker (#MarkerOptions)    
     var marker = new google.maps.Marker({
-
         
+        //Position of marker
+        position: new google.maps.LatLng(40.6413111,-73.77813909),
         
+        //Map
+        map: map,                
         
+        //Icon details
+        icon: {
+            
+            //URL of the image
+            url: 'img/airplane-green.png',
+            
+            //Sets the image size
+            size: new google.maps.Size(32,32),
+            
+            //Sets the origin of the image (top left)
+            origin: new google.maps.Point(0,0),
+            
+            //Sets the anchor (middle, bottom)
+            anchor: new google.maps.Point(16,32),
+            
+            //Scales the image
+            scaledSize: new google.maps.Size(32,32)
+        }
     });
+
+  
+    //Marker events (#MarkerEvents)
+//    marker.setMap(map);
+//    marker.setVisible(false);
 
     return marker;
 }
