@@ -11,9 +11,26 @@ Throughout the course, we'll refer to the term **API** (**Application Program In
 
 Ready to get started? Then, let's go!
 
-# Index for the Introduction To Less course #
+# Index for the Introduction To Google Maps API course
 
-* [Lesson 1.1](https://github.com/learnable-content/introduction-to-google-maps-api/tree/lesson1.1)
+* [Lesson 1.1](Introduction_to_Google_Maps_API_handouts/1-1.md)
+* [Lesson 1.2](Introduction_to_Google_Maps_API_handouts/1-2.md)
+* [Lesson 2.1](Introduction_to_Google_Maps_API_handouts/2-1.md)
+* [Lesson 2.2](Introduction_to_Google_Maps_API_handouts/2-2.md)
+* [Lesson 2.3](Introduction_to_Google_Maps_API_handouts/2-3.md)
+* [Lesson 2.4](Introduction_to_Google_Maps_API_handouts/2-4.md)
+* [Lesson 3.1](Introduction_to_Google_Maps_API_handouts/3-1.md)
+* [Lesson 4.1](Introduction_to_Google_Maps_API_handouts/4-1.md)
+* [Lesson 4.2](Introduction_to_Google_Maps_API_handouts/4-2.md)
+* [Lesson 5.1](Introduction_to_Google_Maps_API_handouts/5-1.md)
+* [Lesson 6.1](Introduction_to_Google_Maps_API_handouts/6-1.md)
+* [Lesson 6.2](Introduction_to_Google_Maps_API_handouts/6-2.md)
+* [Lesson 6.3](Introduction_to_Google_Maps_API_handouts/6-3.md)
+* [Lesson 7.1](Introduction_to_Google_Maps_API_handouts/7-1.md)
+* [Lesson 7.2](Introduction_to_Google_Maps_API_handouts/7-2.md)
+* [Lesson 7.3](Introduction_to_Google_Maps_API_handouts/7-3.md)
+* [Lesson 8.1](Introduction_to_Google_Maps_API_handouts/8-1.md)
+
 
 
 
