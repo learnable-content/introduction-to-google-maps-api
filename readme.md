@@ -10,3 +10,25 @@ Once you've mastered the basics, the lessons will start to build on each other i
 Throughout the course, we'll refer to the term **API** (**Application Program Interface**). It refers to the classes, methods, properties, and events, that will allow you to interface and control the Google Map. For this course, we'll focus on using the JavaScript API for creating web based maps that can be used across desktop and mobile browsers. Once you've completed this introductory course,you will have a solid understanding of the Google Maps API, as well as a strong foundation to learn more about advanced concepts.
 
 Ready to get started? Then, let's go!
+
+# Index for the Introduction To Less course
+
+* [Lesson 1.1](introduction-to-google-maps-api/lesson1.1.md)
+* [Lesson 1.2](introduction-to-google-maps-api/lesson1.2.md)
+* [Lesson 2.1](introduction-to-google-maps-api/lesson2.1.md)
+* [Lesson 2.2](introduction-to-google-maps-api/lesson2.2.md)
+* [Lesson 2.3](introduction-to-google-maps-api/lesson2.3.md)
+* [Lesson 2.4](introduction-to-google-maps-api/lesson2.4.md)
+* [Lesson 3.1](introduction-to-google-maps-api/lesson3.1.md)
+* [Lesson 4.1](introduction-to-google-maps-api/lesson4.1.md)
+* [Lesson 4.2](introduction-to-google-maps-api/lesson4.2.md)
+* [Lesson 5.1](introduction-to-google-maps-api/lesson5.1.md)
+* [Lesson 6.1](introduction-to-google-maps-api/lesson6.1.md)
+* [Lesson 6.2](introduction-to-google-maps-api/lesson6.2.md)
+* [Lesson 6.3](introduction-to-google-maps-api/lesson6.3.md)
+* [Lesson 7.1](introduction-to-google-maps-api/lesson7.1.md)
+* [Lesson 7.2](introduction-to-google-maps-api/lesson7.2.md)
+* [Lesson 7.3](introduction-to-google-maps-api/lesson7.3.md)
+* [Lesson 8.1](introduction-to-google-maps-api/lesson8.1.md)
+
+
