@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 2.3.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 2.3.jpg)
 # Introduction
 
 Google has provided a number of resources to help you developing web pages using the Google Maps JavaScript API. At this step we will discuss some of the main reference materials.
