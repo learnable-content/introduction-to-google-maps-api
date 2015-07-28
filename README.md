@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 4.2.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 4.2.jpg)
 # Introduction
 
 Google offers ability to create custom map styles of the base map layers so that you can style the landscape, roads, water, points of interest, transit routes, and geographic boundaries. The map style is configured by creating an array of features and styles, and then applying that to the style's option on the map.
