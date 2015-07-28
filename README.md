@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 1.2.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 1.2.jpg)
 # Getting started
 
 In this lesson we will go through the tools and code samples. To get started, you will need your favorite text editor and a web browser such as Chrome, Firefox, IE, or Safari. I'll be using Brackets, which you can download at [brackets.io](brackets.io), and Chrome browser for the lesson demonstrations.
