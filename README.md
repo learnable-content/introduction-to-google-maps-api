@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 7.1.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 7.1.jpg)
 # Introduction
 
 Now let's take what you've learned so far and apply it to our course project. For the course project, we'll be creating an interactive visualization showing on-time arrival and departures for US airports for the December 2014.
