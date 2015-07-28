@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 2.2.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 2.2.jpg)
 # Introduction
 
 At this step you will learn how to include Google Maps JavaScript API in your code, and learn about the parameters that allow you to set the version, your unique API key, and any optional API libraries.
