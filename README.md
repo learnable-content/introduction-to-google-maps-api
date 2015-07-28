@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 7.2.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 7.2.jpg)
 # Cleaning up a bit of previous code
 
 At this step we will cover two of the goals identified for our course project, displaying all the airports on the map, and creating a styled info window with each airport's unique data.
