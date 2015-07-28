@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 2.1.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 2.1.jpg)
 # Introduction
 
 The first step in creating a map is generating an **API key** associated with your Google account. This key allows you to monitor your map's API usage through the Google API console. In this lesson you will learn how to use the Google API console to generate your unique API key. Google Maps JavaScript API does not require you to have a key to function properly, but it is recommended for live production sites. Let's start out by visiting the Google API Console.
