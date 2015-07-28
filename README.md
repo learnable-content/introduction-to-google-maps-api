@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 7.3.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 7.3.jpg)
 # Introduction
 
 At this final step we will finish the course project, and turn it into a compelling visualization.
