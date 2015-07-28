@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 6.3.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 6.3.jpg)
 # Introduction
 
 Displaying a marker on a map is useful, but we want users to be able to interact with it and get more information about the point of interest. This is why **info windows** were created. An info window is just a pop-up that contains HTML or plain text and can be triggered when a user clicks on a marker. 
