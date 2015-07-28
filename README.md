@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 5.1.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 5.1.jpg)
 # Introduction
 
 In this lesson we'll learn about the methods to get and set map properties. You will also learn how to create event handlers to interact with map methods, that control map and mouse interactions.
