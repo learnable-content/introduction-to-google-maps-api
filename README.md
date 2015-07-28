@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 3.1.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 3.1.jpg)
 # Initial Setup
 
 Let's start coding and create our first map.
