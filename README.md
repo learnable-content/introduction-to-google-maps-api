@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 2.4.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 2.4.jpg)
 # Introduction
 
 Before you start working with Google Maps, it's helpful to have a quick geography review. At this step we will discuss **latitude and longitude coordinates**, **referencing locations** relative to the equator and prime meridian, and understanding the workings of how it related to Google Maps.
