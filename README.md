@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 6.2.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 6.2.jpg)
 # Introduction
 
 At this step you will learn about some additional marker options as well as marker's events and methods that are available for interacting with the marker class.
