@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 4.1.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 4.1.jpg)
 # Introduction
 
 In the last lesson, we only set the two required properties (`center` and `zoom`) in the map options. In this lesson, we will learn how to control the size and positioning of the map controls, including pan, zoom and street view. We will also learn how to set the default map layer on load, to satellite or terrain, for example. Finally we will learn how to set the zoom bounds and add an overview map.
