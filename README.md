@@ -1,4 +1,4 @@
-![](headers/GoogleMaps Lesson 6.1.jpg)
+![](Introduction_to_Google_Maps_API_handouts/headers/GoogleMaps Lesson 6.1.jpg)
 # Introduction
 
 In the previous lessons you learned how to create a map, customize the map options, listen and interact with map events. In this lesson we'll learn how to create and place markers on the map, along with customizing those markers with your own images.
